@@ -1,0 +1,80 @@
+
+:root {
+    --primary-color: #70B77E;
+    --secondary-color: #465362;
+    --accent1-color: #F5E3E0;
+    --accent2-color: #011936;
+    --heading-font: 'Fira Sans', sans-serif;
+    --text-font: 'Fira Sans', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--text-font);
+    color: var(--secondary-color);
+}
+
+
+.social-media a {
+    text-decoration: none;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 2.5em;
+}
+
+article {
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+    background-color: rgba(255, 255, 255, 0.795);
+    color: white;
+    padding: 20px;
+    max-width: 1200px;
+    max-height: 600px;
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
