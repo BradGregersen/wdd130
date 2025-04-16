@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="White water rafting contact information">
+    <meta name="author" content="Brad Gregersen">
+    <title>Contact Us - Splash Water Rafting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+<body>
+    <header class="header">
+        <img src="images/rafting_logo.png" alt="Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Get in Touch with Us!</h2>
+            <p>We'd love to hear from you! Whether it's a general inquiry, reservation question, or website suggestion, we're here to help.</p>
+        </article>
+        <section class="employee-profiles">
+            <h3>Meet Our Team</h3>
+            <figure class="employee">
+                <img src="images/Happy_employee.jpg" alt="Happy Employee 1">
+                <figcaption>John Doe, Rafting Guide</figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="images/happy_employees_2.webp" alt="Happy Employees 2">
+                <figcaption>Jane Smith, Operations Manager</figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="images/happy_employees_3.jpg" alt="Happy Employees 3">
+                <figcaption>Bob Johnson, Marketing Manager</figcaption>
+            </figure>
+        </section>
+
+
+        <section class="contact-form">
+            <h2>Send Us a Message!</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="purpose">Purpose:</label>
+                <div>
+                    <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry">
+                    <label for="general-inquiry">General Inquiry</label>
+
+                    <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                    <label for="reservation-question">Reservation Question</label>
+
+                    <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                    <label for="website-suggestion">Website Suggestion</label>
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <aside class="contact-information">
+        <h2>Get in Touch with Us!</h2>
+        <p>Email: [info@splashwaterrafting.com](mailto:info@splashwaterrafting.com)</p>
+        <p>Phone: 1-800-SPLASH-5</p>
+        <p>Address: Mount Rushmore National Memorial, SD 57746</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Splash Water Rafting, Brad Gregersen</p>
+        <div class="social-media-container">
+            <a href="https://www.facebook.com" target="_blank" class="social-media">
+                <img src="images/5296499_fb_facebook_facebook_logo_icon.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-media">
+                <img src="images/5296516_tweet_twitter_twitter_logo_icon.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-media">
+                <img src="images/InstagramLogo.png" alt="Instagram">
+            </a>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2875.8173559827937!2d-103.45634952390036!3d43.880335671092226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x877d35d8b53ed6df%3A0xdaf53dbe055cc641!2sMount%20Rushmore%20National%20Memorial!5e0!3m2!1sen!2sus!4v1744833287575!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+
+</body>
+</html>
